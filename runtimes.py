@@ -38,7 +38,9 @@ if __name__ == '__main__':
             # and whenever the input list is sorted, timsort will run in time Theta(n) instead of Theta(n log n)
             #
             # your specific task is to make xs be a list of all numbers between 0 and 2**x
-            xs = FIXME
+            xs = []
+            for i in range(0, 2**x):
+                xs.append(i)
 
             # HINT:
             # use the range and list functions

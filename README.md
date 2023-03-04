@@ -236,7 +236,32 @@ Follow the instructions in the comments to provide a proper definition of `xs`,
 then rerun the command above to generate a markdown table of runtimes.
 Copy/paste the table into the README file below this line.
 
-<!-- add the table here -->
+|                |       timsort       |   merge_sorted  |  quick_sorted    |
+|----------------|---------------------|-----------------|------------------|
+| n**0.00e+00    |    4.59e-06         |    2.93e-06     |   3.39e-06       |
+| n**1.00e+00    |    2.61e-06         |    1.14e-05     |   1.10e-05       |
+| n**2.00e+00    |    2.53e-06         |    1.68e-05     |   1.34e-05       |
+| n**3.00e+00    |    2.60e-06         |    3.31e-05     |   3.00e-05       |
+| n**4.00e+00    |    2.68e-06         |    5.80e-05     |   5.26e-05       |
+| n**5.00e+00    |    3.53e-06         |    1.26e-04     |   1.40e-04       |
+| n**6.00e+00    |    4.19e-06         |    2.77e-04     |   3.11e-04       |
+| n**7.00e+00    |    5.71e-06         |    6.25e-04     |   8.10e-04       |
+| n**8.00e+00    |    1.04e-05         |    1.33e-03     |   1.66e-03       |
+| n**9.00e+00    |    1.98e-05         |    2.95e-03     |   3.53e-03       |
+| n**1.00e+01    |    3.56e-05         |    6.26e-03     |   8.01e-03       |
+| n**1.10e+01    |    8.50e-05         |    1.34e-02     |   1.75e-02       |
+| n**1.20e+01    |    1.72e-04         |    2.78e-02     |   3.78e-02       |
+| n**1.30e+01    |    3.37e-04         |    5.93e-02     |   8.54e-02       |
+| n**1.40e+01    |    5.90e-04         |    1.24e-01     |   1.76e-01       |
+| n**1.50e+01    |    1.21e-03         |    2.61e-01     |   3.76e-01       |
+| n**1.60e+01    |    2.73e-03         |    5.39e-01     |   8.30e-01       |
+| n**1.70e+01    |    5.63e-03         |    1.17e+00     |   1.63e+00       |
+| n**1.80e+01    |    1.09e-02         |    2.21e+00     |   3.50e+00       |
+| n**1.90e+01    |    2.19e-02         |    4.66e+00     |   7.10e+00       |
+| n**2.00e+01    |    4.68e-02         |    1.04e+01     |   1.50e+01       |
+| n**2.10e+01    |    9.05e-02         |    2.11e+01     |   3.22e+01       |
+| n**2.20e+01    |    1.85e-01         |    4.33e+01     |   6.80e+01       |
+| n**2.30e+01    |    3.59e-01         |    9.04e+01     |   1.43e+02       |
 
 You should notice that the built-in `sorted` function ran much faster on this input,
 but your `merge_sorted` and `quick_sorted` functions have essentially the same runtimes.
